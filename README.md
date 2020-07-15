@@ -9,8 +9,9 @@ What you have to do with this script is as follows
 3. Enter Workspace slug name
   - Log in to your BitBucket and open a workspace you want to back up
   - https://bitbucket.org/{workspace-name}/
-4. Run the script and wait for it completion
-5. Voila!
+4. Enter Destination folder (`base_folder`) you want to put all clone respositories in
+5. Run the script and wait for it completion
+6. Voila!
 
 Hope it could be of use to all of you.
 Enjoy
