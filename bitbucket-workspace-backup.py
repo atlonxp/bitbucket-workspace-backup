@@ -32,6 +32,8 @@ try:
         next = res.get('next', None)
         if next:
             next = f'curl -u {user}:{password} "{next}"'
+        else:
+            break
 except JSONDecodeError as e:
     print(e.args)
 
